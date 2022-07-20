@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}	
+	
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center">FireFile</h1>
+<p class="title" style="text-align:center">Hindi Movies</p>
+<hr>
+<center>
+<div class="row">
+	
+<div class="column">
+<div class="card">
+  <img src="https://stat1.bollywoodhungama.in/wp-content/uploads/2022/05/Anek-2.jpg" alt="Anek" style="width:100%" height=270px>
+  <h1>Anek</h1>
+  <p class="title">1080p 2.8GB</p>
+  <p><button onclick="copy1()">Copy Link</button></p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Attack_film_poster.jpg/220px-Attack_film_poster.jpg" alt="Attack" style="width:100%" height=270px>
+  <h1>Attack Part 1</h1>
+  <p class="title">1080p 2.2GB</p>
+  <p><button onclick="copy2()">Copy Link</button></p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+  <img src="https://bingeddata.s3.amazonaws.com/uploads/2022/06/Forensic-Hindi-Movie-Review-.jpg" alt="Forensic" style="width:100%" height=270px>
+  <h1>Forensic</h1>
+  <p class="title">720p 1.0GB</p>
+  <p><button onclick="copy3()">Copy Link</button></p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/en/9/93/Hurdang_poster.jpg" alt="Hurdang" style="width:100%" height=270px>
+  <h1>Hurdang</h1>
+  <p class="title">1080p 3.2GB</p>
+  <p><button onclick="copy4()">Copy Link</button></p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/en/7/77/Jaadugar_film.jpg" alt="Jaadugar" style="width:100%" height=270px>
+  <h1>Jaadugar</h1>
+  <p class="title">1080p 3.3GB</p>
+  <p><button onclick="copy5()">Copy Link</button></p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+  <img src="https://stat2.bollywoodhungama.in/wp-content/uploads/2022/05/Janhit-Mein-Jaari-4.jpg" alt="Janhit_Mein_Jaari" style="width:100%" height=270px>
+  <h1>Janhit Mein Jaari</h1>
+  <p class="title">1080p 2.6GB</p>
+  <p><button onclick="copy6()">Copy Link</button></p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+  <img src="https://www.filmibeat.com/ph-big/2021/12/jersey_163836219500.jpg" alt="Jersey" style="width:100%" height=270px>
+  <h1>Jersey</h1>
+  <p class="title">1080p 3.6GB</p>
+  <p><button onclick="copy7()">Copy Link</button></p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+  <img src="https://m.media-amazon.com/images/M/MV5BYzFjNmJkNjMtMTM2ZS00OWYxLWJhYmEtZDljZTk1ZjcxYWI3XkEyXkFqcGdeQXVyMTI1NDAzMzM0._V1_.jpg" alt="Mere_Desh_Ki_Dharti" style="width:100%" height=270px>
+  <h1>Mere Desh ki Dharti</h1>
+  <p class="title">1080p 2.7GB</p>
+  <p><button onclick="copy8()">Copy Link</button></p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+  <img src="https://m.media-amazon.com/images/M/MV5BODgxNTI2ZjItMThmNS00ZWMyLWFhMzktMTcyZWI0MWMyMjMxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" alt="Operation_Romeo" style="width:100%" height=270px>
+  <h1>Operation Romeo</h1>
+  <p class="title">1080p 3.3GB</p>
+  <p><button onclick="copy9()">Copy Link</button></p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+  <img src="https://media2.bollywoodhungama.in/wp-content/uploads/2022/04/Runway-34.jpeg" alt="Runway_34" style="width:100%" height=270px>
+  <h1>Runway 34</h1>
+  <p class="title">1080p 2.8GB</p>
+  <p><button onclick="copy10()">Copy Link</button></p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+  <img src="https://m.media-amazon.com/images/M/MV5BOGI1N2QwNjYtMjQzOS00NjZiLTg1YzEtMDVjZGY0YjkwODNjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" alt="Samrat_Prithviraj" style="width:100%" height=270px>
+  <h1>Samrat Prithviraj</h1>
+  <p class="title">1080p 2.6GB</p>
+  <p><button onclick="copy11()">Copy Link</button></p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+  <img src="https://media-cache.cinematerial.com/p/500x/hn9ua9yu/shabaash-mithu-indian-movie-poster.jpg" alt="Sabaash_Mithu" style="width:100%" height=270px>
+  <h1>Shabaash Mithu</h1>
+  <p class="title">1080p 2.3GB</p>
+  <p><button onclick="copy12()">Copy Link</button></p>
+</div>
+</div>
+
+<div class="column">
+<div class="card">
+  <img src="https://m.media-amazon.com/images/M/MV5BYzA5OTVlNmItOWRlOC00ZjA3LWEzODItOTZjMzU4NDA1MTIxXkEyXkFqcGdeQXVyMTIyNzY0NTMx._V1_FMjpg_UX1000_.jpg" alt="Zombivli" style="width:100%" height=270px>
+  <h1>Zombivli</h1>
+  <p class="title">1080p 2.6GB</p>
+  <p><button onclick="copy13()">Copy Link</button></p>
+</div>
+</div>
+
+</div>
+</center>
+<hr>
+<input type="text" id="link">
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mouse0270-bootstrap-notify/3.1.5/bootstrap-notify.min.js'></script>
+<script src="./script.js"></script>
+</body>
+</html>
